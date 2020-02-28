@@ -1,1 +1,1 @@
-web: gunicorn ControleDePonto.wsgi
+web: gunicorn wsgi.py
