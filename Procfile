@@ -1,1 +1,1 @@
-web: gunicorn wsgi.py
+web: gunicorn ControleDePonto.wsgi:application --log-file - --log-level debug

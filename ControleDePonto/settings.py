@@ -76,10 +76,13 @@ WSGI_APPLICATION = 'ControleDePonto.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dc96bsc46fs3b7',
+        'USER': 'cybarakqfwirnz',
+        'PASSWORD': '45f868db70bfbcf697010f953b304b2bb27fbf44075db613bc18da61a6375944',
+        'HOST': 'ec2-54-197-48-79.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
-
 }
 
 
